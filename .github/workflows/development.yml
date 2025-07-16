@@ -21,7 +21,7 @@ jobs:
     
     runs-on: macos-latest
     steps:
-      - name: Remove work folders
+      - name: Install tools
         run: brew install ldid make temurin@8
           
       - name: Checkout repository
